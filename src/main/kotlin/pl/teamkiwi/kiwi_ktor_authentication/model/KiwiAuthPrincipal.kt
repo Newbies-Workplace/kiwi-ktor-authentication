@@ -1,4 +1,4 @@
-package pl.teamkiwi.kiwi_ktor_authentication
+package pl.teamkiwi.kiwi_ktor_authentication.model
 
 import io.ktor.auth.Principal
 

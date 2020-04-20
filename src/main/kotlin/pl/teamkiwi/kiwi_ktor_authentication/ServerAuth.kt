@@ -7,6 +7,7 @@ import io.ktor.client.engine.apache.Apache
 import io.ktor.client.request.get
 import io.ktor.client.request.header
 import pl.teamkiwi.kiwi_ktor_authentication.exception.KiwiUnauthorizedException
+import pl.teamkiwi.kiwi_ktor_authentication.model.KiwiAuthPrincipal
 import kotlin.reflect.KClass
 
 class ServerAuthenticationProvider internal constructor(
