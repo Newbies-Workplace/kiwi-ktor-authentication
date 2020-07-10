@@ -1,5 +1,7 @@
 # kiwi-ktor-authentication
 
+[![](https://jitpack.io/v/com.gitlab.team-kiwi/kiwi-ktor-authentication.svg)](https://jitpack.io/#com.gitlab.team-kiwi/kiwi-ktor-authentication)
+
 JitPack private library tutorial:
 https://jitpack.io/private
 
