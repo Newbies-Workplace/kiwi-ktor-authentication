@@ -58,7 +58,7 @@ fun Authentication.Configuration.kiwiServer(
                 }
             }
 
-            val response = client.get<String> {
+            val response = client.get<String>(path = "/v1/session") {
                 header(AUTHORIZATION_KEY, token)
             }
 
