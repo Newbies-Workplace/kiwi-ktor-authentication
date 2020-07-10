@@ -29,7 +29,7 @@ usage:
 ```kotlin
 install(Authentication) {
     kiwiServer {
-        url = "http://localhost:8081"
+        consulUrl = "http://localhost:8081"
 
         deserialize { string, type -> jacksonObjectMapper().readValue(string, type.javaObjectType) }
     }
